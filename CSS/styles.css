@@ -16,6 +16,23 @@
     border: 1px solid blue;
 }
 
+.headerRows {
+    display: flex;
+    border: 1px solid purple;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#profileContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.profileContent {
+    
+}
+
 /* sidebar area */
 #sidebar {
     grid-column: 1 / 2;
