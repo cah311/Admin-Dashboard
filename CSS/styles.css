@@ -26,6 +26,10 @@
     justify-content: space-between;
 }
 
+#searchImg {
+    height: 1rem;
+}
+
 #profileContainer {
     display: flex;
     flex-direction: row;
@@ -95,4 +99,13 @@
     grid-row: 2 / 3;
     border: 1px solid lime;
 
+}
+
+#ref {
+    grid-column: 2 / 3;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 0.4rem;
 }
