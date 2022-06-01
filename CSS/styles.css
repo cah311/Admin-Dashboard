@@ -38,6 +38,18 @@
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#dashboard {
+    padding: 1rem;
+}
+
+.sideContent {
+    padding: 1rem;
 }
 
 /* main content area area */
