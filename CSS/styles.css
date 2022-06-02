@@ -15,8 +15,8 @@
 #header {
     grid-column: 2 / 3;
     border: 1px solid blue;
-    min-height: 7rem;
-    max-height: 7.5rem;
+    min-height: 7em;
+    max-height: 8em;
 }
 
 .headerRows {
@@ -24,6 +24,7 @@
     border: 1px solid purple;
     flex-direction: row;
     justify-content: space-between;
+    height: 48.5%;
 }
 
 #searchImg {
@@ -63,11 +64,11 @@
 #mainContent {
     grid-column: 2 / 3;
     grid-row-start: 2;
-    /* border: 3px solid red; */
+    border: 3px solid red;
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
-    height: 82.5vh;
+    height: 83vh;
 }
 
 #projectContainer {
