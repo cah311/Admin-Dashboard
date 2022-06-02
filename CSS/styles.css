@@ -27,8 +27,28 @@
     height: 48.5%;
 }
 
+.headerContent {
+    border: 1px solid green;
+    width: 100%;
+}
+
+#searchBarContainer {
+    border: 2px solid orangered;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 #searchImg {
     height: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+}
+
+#searchBar {
+    width: 85%;
+    border-radius: 10px;
 }
 
 #profileContainer {
