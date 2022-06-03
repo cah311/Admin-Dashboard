@@ -24,17 +24,20 @@
     border: 1px solid purple;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     height: 48.5%;
 }
 
 .headerContent {
     border: 1px solid green;
     width: 100%;
+    
 }
 
 #searchBarContainer {
     border: 2px solid orangered;
     height: 100%;
+    width: 130%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -55,10 +58,51 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    align-items: center;
+    padding-right: 1.5rem;
+}
+
+#alertImg {
+    height: 1.85rem;
 }
 
 .profileContent {
-    
+    padding-right: 1rem;
+}
+
+#profileImg {
+    height: 2.5rem;
+    border-radius: 50px;
+}
+
+#profileName {
+    font-weight: bold;
+}
+
+#greetingContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 1.3rem;
+}
+
+.greetingContent {
+    padding-left: 1rem;
+}
+
+#tagImg {
+    height: 3rem;
+    border-radius: 50px;
+}
+
+#greeting {
+    font-size: 0.7rem;
+}
+
+#greetingTag {
+    font-weight: bolder;
+    font-size: 1rem;
 }
 
 /* sidebar area */
@@ -122,11 +166,18 @@
 
 }
 
-#ref {
-    grid-column: 2 / 3;
+/*References*/
+#refSection {
+    border: 1px solid teal;
+   
+    grid-column: 1 / 3;
     font-size: 0.8rem;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    padding-right: 0.4rem;
+    padding-right: 1rem;
+}
+
+.refs {
+    padding-left: 1rem;
 }
