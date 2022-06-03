@@ -15,8 +15,7 @@
 #header {
     grid-column: 2 / 3;
     border: 1px solid blue;
-    /* min-height: 7em;
-    max-height: 8em; */
+    background-color: #f7fee7;
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -139,7 +138,8 @@
 #sidebar {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
-    border: 1px solid green;
+    background-color: #365314;
+    border: 1px solid purple;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -158,6 +158,7 @@
 #mainContent {
     grid-column: 2 / 3;
     grid-row-start: 2;
+    background-color: #ecfccb;
     border: 3px solid red;
     display: grid;
     grid-template-columns: 2fr 1fr;
