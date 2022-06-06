@@ -17,7 +17,7 @@ h5, h6 {
 }
 
 #container {
-    height: 100vh;
+    height: 112vh;
     display: grid;
     grid-template-columns: 1fr 4fr;
     border: 1px solid red;
@@ -212,7 +212,8 @@ a:active { text-decoration: none; }
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
-    height: 83vh;
+    height: 90vh;
+    padding: 1rem;
 }
 
 #projectContainer {
@@ -229,7 +230,17 @@ a:active { text-decoration: none; }
 }
 
 .projectBox {
-    border: 1px solid pink;
+    
+    border-left: 10px solid #facc15;
+    padding: 1rem;
+    margin: 0.7rem;
+    background-color: var(--header-bg-color);
+    border-radius: 25px;
+    box-shadow: 2px 3px #888888;
+}
+
+.projectEdge {
+    
 }
 
 #announcements {
