@@ -145,6 +145,7 @@ h5, h6 {
     grid-row: 1 / 3;
     background-color: var(--dark-green);
     border: 1px solid purple;
+   
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -232,16 +233,22 @@ a:active { text-decoration: none; }
     margin: 0.7rem;
     background-color: var(--header-bg-color);
     border-radius: 25px;
-    box-shadow: 2px 3px #888888;
-    height: 10rem;
-}
-
-.projectsText {
-
+    box-shadow: 3px 3px #888888;
+    height: 9rem;
 }
 
 .projectButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 5rem;
 
+}
+
+
+.projectIcons {
+    padding-left: 1rem;
 }
 
 #announcements {
