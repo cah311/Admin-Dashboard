@@ -36,7 +36,6 @@ h5, h6 {
 
 
 .headerContent {
-    border: 1px solid green;
     width: 100%;
     
     
@@ -45,9 +44,7 @@ h5, h6 {
 #searchBarContainer {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    border: 2px solid orangered;
     height: 100%;
-    /* width: 130%; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -71,7 +68,6 @@ h5, h6 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /* padding-right: 1.5rem; */
 }
 
 #alertImg {
@@ -237,10 +233,15 @@ a:active { text-decoration: none; }
     background-color: var(--header-bg-color);
     border-radius: 25px;
     box-shadow: 2px 3px #888888;
+    height: 10rem;
 }
 
-.projectEdge {
-    
+.projectsText {
+
+}
+
+.projectButtons {
+
 }
 
 #announcements {
