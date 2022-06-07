@@ -261,12 +261,20 @@ a:active { text-decoration: none; }
 }
 
 #announcementContent {
-    padding: 1rem;
+    padding: 2rem;
     margin: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     background-color: var(--header-bg-color);
     border-radius: 25px;
     box-shadow: 3px 7px 5px #888888;
-    height: 13rem;
+    height: 12rem;
+}
+
+.breakLine {
+    width: 100%;
+    border-bottom: 1px solid grey;
 }
 
 #trending {
